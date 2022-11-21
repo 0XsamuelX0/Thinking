@@ -6,7 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="description">
   <meta content="" name="keywords">
-  <title>Thinking</title>
+  <title>Thingking</title>
+
   <!-- Favicons -->
   <link href="/assets/img/digital.png" rel="icon">
   <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -28,12 +29,11 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>Thinking<span>.</span></h1>
@@ -45,13 +45,19 @@
           <li><a href="/index.html">Servicios</a></li>
           <li><a href="/index.html">Equipo</a></li>
           <li><a href="/index.html">Contacto</a></li>
-          <li><a href="/">Blog</a></li>
+          <li class="dropdown"><a href="#">Blog</a>
+            <ul>
+              <li><a href="/pages/HTML/blog.html">Html</a></li>
+              <li><a href="/pages/CSS/css_blog.html">Css</a></li>
+              <li><a href="/pages/JAVASCRIPT/javascript.html">JavaScripts</a></li>
+              <li><a href="/pages/Pensamiento_Computacional/Pensamiento_Computacional.html">Pensamiento Computacional</a></li>
+            </ul>
+          </li>
           <li class="dropdown"><a href="#"><span> Quiz</span></a>
             <ul>
-              <li><a href="assets/Quiz/html/index.html">HTML</a></li>
-              <li><a href="assets/Quiz/css/index.html">CSS</a></li>
-              <li><a href="assets/Quiz/JavaScript/index.html">JAVASCRIPT</a></li>
-              <li><a href="/pages/Pensamiento_Computacional/Pensamiento_Computacional.html">Pensamiento Computacional</a></li>
+              <li><a href="/assets/Quiz/html/index.html">Html</a></li>
+              <li><a href="/assets/Quiz/css/index.html">Css</a></li>
+              <li><a href="/assets/Quiz/JavaScript/index.html">JavaScripts</a></li>
             </ul>
           </li>
         </ul>
@@ -72,8 +78,7 @@
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-              <h2>HTML</h2>
-              <p>Aqui podras encontrar el blog de html con sus partes</p>
+              <h2>Pensamiento Computacional</h2>
             </div>
           </div>
         </div>
@@ -81,125 +86,110 @@
       <nav>
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Blog</li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/Pensamiento_Computacional/Pensamiento_Computacional.html">Pensamiento Computacional</a></li>
+            <li>¿Qué habilidades conforman el pensamiento computacional?</li>
           </ol>
         </div>
       </nav>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Blog Section ======= -->
+    <!-- ======= Blog Details Section ======= -->
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up">
 
-        <div class="row gy-4 posts-list">
+        <div class="row g-5">
 
-          <div class="col-xl-4 col-md-6">
-            <article>
 
-              <div class="post-img">
-                <img src="/assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-              </div>
 
-              <p class="post-category">HTML</p>
-
-              <h2 class="title">
-                <a href="html_blog.html">Introducción a HTML5</a>
-              </h2>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6">
-            <article>
+            <article class="blog-details">
 
               <div class="post-img">
-                <img src="/assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                <img src="/assets/img/habilidad.png" alt="" class="img-fluid">
               </div>
 
-              <p class="post-category">HTML</p>
+              <h2 class="title">¿Qué habilidades conforman el pensamiento computacional?</h2>
 
-              <h2 class="title">
-                <a href="html_blog.html">Etiquetas semánticas</a>
-              </h2>
+              <div class="content">
+                <p>
+                  El pensamiento computacional es una habilidad macrocompuesta por un conjunto de subhabilidades que interactúan entre sí y permiten a los individuos resolver problemas complejos.
+                </p>
 
-            </article>
-          </div><!-- End post list item -->
+                <p>
+                  Se destacan las siguientes: el análisis, el pensamiento lógico, el pensamiento algorítmico (lógica booleana, bucles, procesamiento de información), la descomposición, la  abstracción, la depuración, la validación de soluciones y el reconocimiento de patrones. A continuación, se presenta una breve definición de cada una de estas subhabilidades.
+                </p>
 
-          <div class="col-xl-4 col-md-6">
-            <article>
+                <blockquote>
+                  <p>
+                    “ El hardware es lo que hace a una máquina rápida; el software es lo que hace que una máquina rápida se vuelva lenta” Craig Bruce.
+                  </p>
+                </blockquote>
 
-              <div class="post-img">
-                <img src="/assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-              </div>
+                <h3>¿Pensamiento algorítmico?</h3>
+                <p>
+                  El pensamiento algorítmico es el camino para llegar a una solución a través de una definición clara de pasos (Csizmadia et al., 2015). De igual manera, consiste en identificar problemas similares y aplicar la secuencia de pasos previamente definida, para solucionar los de forma sistemática.
+                </p>
 
-              <p class="post-category">HTML</p>
+                <p>
+                  Al crear un algoritmo y representarlo con un pseudocódigo o mediante un diagrama de flujo, se usa esta subhabilidad.
+                </p>
 
-              <h2 class="title">
-                <a href="html_blog.html">Etiquetas multimedia</a>
-              </h2>
+                <h3>¿Descomposición?</h3>
+                <p>
+                  Es la capacidad de pensar en un problema o en un artefacto identificando el conjunto de partes que lo componen, con el fin de comprender, desarrollar y evaluar soluciones individuales para dichos componentes.
+                </p>
 
-            </article>
-          </div><!-- End post list item -->
+                <p>
+                  Cuando se plantea un problema o una situación que los(as) estudiantes deben analizar y subdividir en otros más pequeños, se les motiva a desarrollar esta subhabilidad.
+                </p>
 
-          <div class="col-xl-4 col-md-6">
-            <article>
+                <h3>¿Reconocimiento de patrones?</h3>
+                <p>
+                  Se relaciona con la capacidad de identificar una serie de partes, similitudes y conexiones, y de aprovechar esas características para proponer soluciones replicadas de forma rápida y ágil.
+                </p>
 
-              <div class="post-img">
-                <img src="/assets/img/blog/blog-4.jpg" alt="" class="img-fluid">
-              </div>
+                <p>
+                  Esta subhabilidad se puede empezar a desarrollar, por ejemplo, al invitar a los(as) estudiantes a que encuentren e identifiquen secuencias numéricas, de colores y de gráficos, como etapa previa a la identificación de secuencias de código repetitivas, que podrían simplificarse y hacerse más eficientes mediante el uso de bucles o ciclos.
+                </p>
 
-              <p class="post-category">HTML</p>
+                <h3>¿Abstracción?</h3>
+                <p>
+                  Es la capacidad de simplificar un problema compilando sus partes, reduciendo elementos o detalles innecesarios que dificulten su comprensión.
+                </p>
 
-              <h2 class="title">
-                <a href="html_blog.html">Etiquetas de cabecera</a>
-              </h2>
+                <p>
+                  La abstracción permite, por ejemplo,  que los estudiantes puedan declarar y usar funciones al programar.
+                </p>
 
-            </article>
-          </div><!-- End post list item -->
+                <h3>¿Depuración?</h3>
+                <p>
+                  Consiste en ser capaces de analizar un sistema y de identificar aquellos elementos que no aportan valor, para simplificar procesos y secuencias. Asimismo, de encontrar y corregir los errores en un código.
+                </p>
 
-          <div class="col-xl-4 col-md-6">
-            <article>
+                <p>
+                  Al presentar a los(as) estudiantes ejemplos de código no funcional, para que en grupos lo analicen y decidan cuál es el error y cómo se podría solucionar, se les ayuda a desarrollar esta subhabilidad.
+                </p>
 
-              <div class="post-img">
-                <img src="/assets/img/blog/blog-5.jpg" alt="" class="img-fluid">
-              </div>
+                <h3>¿Pensamiento lógico?</h3>
+                <p>
+                  Es la habilidad de entender todas las herramientas y los elementos disponibles en el con texto, y de articularlos para cumplir un objetivo específico.
+                </p>
 
-              <p class="post-category">HTML</p>
+                <p>
+                  En programación, el pensamiento  lógico se relaciona con la toma de decisiones a partir del análisis de sentencias condiciona les con operadores matemáticos y lógicos.
+                </p>
 
-              <h2 class="title">
-                <a href="html_blog.html">Etiquetas de formularios</a>
-              </h2>
 
-            </article>
-          </div><!-- End post list item -->
 
-          <div class="col-xl-4 col-md-6">
-            <article>
+              </div><!-- End post content -->
 
-              <div class="post-img">
-                <img src="/assets/img/blog/blog-6.jpg" alt="" class="img-fluid">
-              </div>
+            </article><!-- End blog post -->
 
-              <p class="post-category">HTML</p>
 
-              <h2 class="title">
-                <a href="html_blog.html">Etiquetas de scripting</a>
-              </h2>
-
-            </article>
-          </div><!-- End post list item -->
-
-        </div><!-- End blog posts list -->
-
-        <div class="blog-pagination">
-          <ul class="justify-content-center">
-            <li class="active"><a href="#">1</a></li>
-          </ul>
-        </div><!-- End blog pagination -->
+        </div>
 
       </div>
-    </section><!-- End Blog Section -->
+    </section><!-- End Blog Details Section -->
 
   </main><!-- End #main -->
 
@@ -210,9 +200,15 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span>Impact</span>
+            <span>Thingking.</span>
           </a>
           <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
@@ -254,7 +250,7 @@
 
     <div class="container mt-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Thingking</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
